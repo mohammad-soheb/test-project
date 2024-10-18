@@ -1,0 +1,63 @@
+#search {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#userForm {
+    display: none; /* Initially hidden */
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.previewImage {
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+    margin-top: 10px;
+    border: 2px solid #ddd; /* Optional: add a border for better visibility */
+}
+
+.cancel-btn {
+    display: none; /* Hide cancel button initially */
+}
+
+.error {
+    color: red; /* Set error text color to red */
+    margin-top: 5px; /* Add some space above the error message */
+}
+
+.is-invalid {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
+
+td[title] {
+    cursor: pointer;
+}
+
+.text-ellipsis{
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ .text-ellipsis:hover{
+    overflow: visible;
+    white-space: normal;
+ }
