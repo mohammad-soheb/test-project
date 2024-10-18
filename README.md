@@ -16,9 +16,9 @@ Follow the steps below to install and configure the application.
 
 Clone the repository to your local machine and navigate into the project directory.
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/mohammad-soheb/test-project.git
 
-cd your-repo-name
+cd test-project
 
 ## 2 .Install all the required dependencies using Composer.
 
